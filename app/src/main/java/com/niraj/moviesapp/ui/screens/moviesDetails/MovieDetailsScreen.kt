@@ -84,6 +84,7 @@ fun MovieDetailsScreen(
         }
 
         is ScreenUiState.Error -> MovieDetailsError(popBackStack = popBackStack)
+        else -> {}
     }
 }
 
